@@ -14,6 +14,7 @@
 
 ** Solutions :
    - To reduce the length of a method body, use Extract Method.
-  <img width="972" height="237" alt="image" src="https://github.com/user-attachments/assets/69f9ff6c-8048-4e1f-8d2e-2fa0a9bedba6" />
+  <img width="952" height="245" alt="image" src="https://github.com/user-attachments/assets/bf3aa28f-ea04-46c1-bcee-e526d52031f9" />
+
 
 
