@@ -1,5 +1,11 @@
 # CodeSmell
 
+** What are CodeSmells ?
+CodeSmells create complexicity , duplicated code , unreadable code.
+Some examples : 
+* Duplicate Code => Seeing the exact code over and over again.
+* Long Methods => We can broken logic into smaller methods, and one method must have single responsibility.
+* Complex Conditional Statements => 
 
 ## Bloaters
 
