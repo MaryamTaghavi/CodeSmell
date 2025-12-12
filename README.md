@@ -53,4 +53,10 @@ Some examples :
    - Preserve Whole Object : You get several values from an object and then pass them as parameters to a method. Instead, try passing the whole object.
    <img width="1263" height="184" alt="image" src="https://github.com/user-attachments/assets/6cdfb718-a064-4e39-bc64-d9f4101d433e" />
 
+5) Data Clumps
+
+** Signs :
+   - Sometimes different parts of the code contain identical groups of variables, that can become a class.
+   <img width="791" height="377" alt="image" src="https://github.com/user-attachments/assets/d69dd4c1-123d-4d93-b3ea-ba05e9135cae" />
+
 
