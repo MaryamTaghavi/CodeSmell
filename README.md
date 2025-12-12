@@ -8,6 +8,8 @@ Some examples :
 * Complex Conditional Statements => 
 
 ## Bloaters
+   - Bloaters are code, methods and classes that have increased to such gargantuan proportions that they’re hard to work with.
+     1) Long Methods  2) Large class  3) Primitive Obsession  4) Long Parameter List  5) Data Clumps
 
 1) Long Method
 
