@@ -79,6 +79,16 @@ Some examples :
 
 <img width="582" height="690" alt="image" src="https://github.com/user-attachments/assets/0274fed8-78bd-4ef1-8e0d-6fb14d5257f4" />
 
+2) Refused Bequest
+
+** Signs : 
+   - If a subclass uses only some of the methods and properties inherited from its parents.
+
+** Solutions :
+   - Subclass need just one method of superclass / Create a field and put a superclass object in it, delegate methods to the superclass object, and get rid of inheritance.
+     <img width="352" height="333" alt="image" src="https://github.com/user-attachments/assets/edad01d3-c2e3-492f-b1a8-8d9719e201e0" />
+     <img width="417" height="263" alt="image" src="https://github.com/user-attachments/assets/ecdb60f1-1aa6-4809-9abe-685f0b1c662d" />
+
 
 
 
