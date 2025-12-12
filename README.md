@@ -44,4 +44,13 @@ Some examples :
    - Use of primitives instead of small objects or small classes.
    <img width="842" height="209" alt="image" src="https://github.com/user-attachments/assets/1889e3c3-9f4c-444b-a274-7f89afeb1a72" />
 
+4) Long Parameter List
+
+** Signs :
+   - More than three or four parameters for a method.
+
+** Solutions :
+   - Preserve Whole Object : You get several values from an object and then pass them as parameters to a method. Instead, try passing the whole object.
+   <img width="1263" height="184" alt="image" src="https://github.com/user-attachments/assets/6cdfb718-a064-4e39-bc64-d9f4101d433e" />
+
 
