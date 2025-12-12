@@ -114,6 +114,13 @@ Some examples :
 ** Solutions :
   - Instead of that "client.Order.Customer.Address.ZipCode" => "client.Order.GetCustomerZipCode()"
 
+3) Middle Man
+
+** Signs :
+   - If a class performs only one action, delegating work to another class, why does it exist at all?
+   <img width="584" height="407" alt="image" src="https://github.com/user-attachments/assets/5c957202-6b6d-4d28-8592-2c727a89cd51" />
+
+
 
 
 
