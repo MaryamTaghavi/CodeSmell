@@ -9,6 +9,7 @@ Some examples :
 
 ## Bloaters
    - Bloaters are code, methods and classes that have increased to such gargantuan proportions that they’re hard to work with.
+   
      I) LongMethods  II) Largeclass  III) PrimitiveObsession  IV) LongParameterList  V) DataClumps
 
 1) Long Method
