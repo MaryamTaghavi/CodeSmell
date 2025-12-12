@@ -86,6 +86,7 @@ Some examples :
 
 ** Solutions :
    - Subclass need just one method of superclass / Create a field and put a superclass object in it, delegate methods to the superclass object, and get rid of inheritance.
+   
      <img width="352" height="333" alt="image" src="https://github.com/user-attachments/assets/edad01d3-c2e3-492f-b1a8-8d9719e201e0" />
      <img width="417" height="263" alt="image" src="https://github.com/user-attachments/assets/ecdb60f1-1aa6-4809-9abe-685f0b1c662d" />
 
