@@ -9,7 +9,7 @@ Some examples :
 
 ## Bloaters
 
-1) LongMethod
+1) Long Method
 
 ** Signs :
    - A method contains too many lines of code. Generally, any method longer than ten lines should make you start asking questions.
@@ -26,5 +26,22 @@ Some examples :
    - Replace Temp with Query, Introduce Parameter Object or Preserve Whole Object.
   <img width="1176" height="393" alt="image" src="https://github.com/user-attachments/assets/48e1bdb0-3385-431b-b509-d6be8be62efc" />
 
+   - You have a complex conditional (if-then/else or switch).
+  <img width="1045" height="239" alt="image" src="https://github.com/user-attachments/assets/78b10a56-39e5-493e-871b-871a4fbc7386" />
+
+2) Large Class
+
+** Signs :
+   - A class contains many fields/methods/lines of code.
+   - Programmers usually find it mentally less taxing to place a new feature in an existing class than to create a new class for the feature.
+
+** Solutions :
+   - Extract Interface : Multiple clients use the samepart of code in different classes, so use interface for them.
+
+3) Primitive Obsession
+
+** Signs : 
+   - Use of primitives instead of small objects or small classes.
+   <img width="842" height="209" alt="image" src="https://github.com/user-attachments/assets/1889e3c3-9f4c-444b-a274-7f89afeb1a72" />
 
 
