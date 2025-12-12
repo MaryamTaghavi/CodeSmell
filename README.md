@@ -91,5 +91,29 @@ Some examples :
      <img width="417" height="263" alt="image" src="https://github.com/user-attachments/assets/ecdb60f1-1aa6-4809-9abe-685f0b1c662d" />
 
 
+## Couplers
+   - All the smells in this group contribute to excessive coupling between classes.
+
+1) Feature Envy
+
+** Signs :
+   - A method accesses the data of another object more than its own data.
+   - This smell may occur after fields are moved to a data class. If this is the case, you may want to move the operations on data to this class as well.
+   - Decrease cohesion and increase coupling.
+
+** Solutions :
+   - Data and logic change together must be in a same class.
+   - A method is used more in another class than in its own class, you must move that.
+
+2) Message Chains
+
+** Signs :
+   - A method for getting data, must get data from B method and B must get data from c , ...
+     In code you see a series of calls resembling $a->b()->c()->d()
+
+** Solutions :
+  - Instead of that "client.Order.Customer.Address.ZipCode" => "client.Order.GetCustomerZipCode()"
+
+
 
 
