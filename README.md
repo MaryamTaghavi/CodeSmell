@@ -62,4 +62,23 @@ Some examples :
    - Sometimes different parts of the code contain identical groups of variables, that can become a class.
    <img width="791" height="377" alt="image" src="https://github.com/user-attachments/assets/d69dd4c1-123d-4d93-b3ea-ba05e9135cae" />
 
+## Object-Orientation Abusers
+   - All these smells are incomplete or incorrect application of object-oriented programming principles.
+
+   I) Switch Statements II) 
+
+1) Switch Statements
+
+** Signs :
+   - You have a complex switch operator or sequence of if statements.
+
+<img width="564" height="470" alt="image" src="https://github.com/user-attachments/assets/6506ba10-44fa-465c-b8e0-9e2d77bc0e52" />
+
+** Solutions :
+   - Use polymorphism
+
+<img width="582" height="690" alt="image" src="https://github.com/user-attachments/assets/0274fed8-78bd-4ef1-8e0d-6fb14d5257f4" />
+
+
+
 
