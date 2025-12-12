@@ -23,5 +23,8 @@ Some examples :
    - To reduce the length of a method body, use Extract Method.
   <img width="952" height="245" alt="image" src="https://github.com/user-attachments/assets/bf3aa28f-ea04-46c1-bcee-e526d52031f9" />
 
+   - Replace Temp with Query, Introduce Parameter Object or Preserve Whole Object.
+  <img width="1176" height="393" alt="image" src="https://github.com/user-attachments/assets/48e1bdb0-3385-431b-b509-d6be8be62efc" />
+
 
 
