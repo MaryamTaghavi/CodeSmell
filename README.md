@@ -29,6 +29,15 @@ Some examples :
 * Duplicate Code => Seeing the exact code over and over again.
 * Long Methods => We can broken logic into smaller methods, and one method must have single responsibility.
 * Complex Conditional Statements => We can use interface for polymorphism.
+* Tight coupling between classes
+* Duplicate logic
+
+** Why Code Smells Are Risky?
+* Ignoring Code Smells can lead to:
+* Small changes causing big problems
+* Slower code comprehension
+* Bugs being discovered later than expected
+* Team members being afraid to modify the code
 
 ## Bloaters
    - Bloaters are code, methods and classes that have increased to such gargantuan proportions that they’re hard to work with.
