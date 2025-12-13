@@ -90,7 +90,7 @@ Some examples :
 
    I) Switch Statements II) Refused Bequest
 
-1) Switch Statements
+I) Switch Statements II) Couplers
 
 ** Signs :
    - You have a complex switch operator or sequence of if statements.
