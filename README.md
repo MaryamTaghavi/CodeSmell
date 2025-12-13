@@ -33,6 +33,7 @@ Some examples :
 * Duplicate logic
 
 ** Why Code Smells Are Risky?
+
 Ignoring Code Smells can lead to:
 * Small changes causing big problems
 * Slower code comprehension
