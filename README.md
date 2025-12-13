@@ -77,8 +77,6 @@ Ignoring Code Smells can lead to:
    - Extract Subclass: helps if part of the behavior of the large class can be implemented in different ways or is used in rare cases.
    - Extract Interface: helps if it’s necessary to have a list of the operations and behaviors that the client can use.
 
-
-Extract Class
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/38b14c4d-cf0f-476e-8382-1a38b749713b" />
 <img width="500" height="267" alt="image" src="https://github.com/user-attachments/assets/630f8094-f67d-4930-b19c-c7c8a841cb5e" />
 
