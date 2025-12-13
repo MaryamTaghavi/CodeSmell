@@ -67,12 +67,25 @@ Ignoring Code Smells can lead to:
 
 2) Large Class
 
-** Signs :
+** Signs:
    - A class contains many fields/methods/lines of code.
-   - Programmers usually find it mentally less taxing to place a new feature in an existing class than to create a new class for the feature.
+   - Classes usually start small. But over time, they get bloated as the program grows.
 
-** Solutions :
-   - Extract Interface : Multiple clients use the samepart of code in different classes, so use interface for them.
+
+** Solutions:
+   - Extract Class: helps if part of the behavior of the large class can be spun off into a separate component.
+   - Extract Subclass: helps if part of the behavior of the large class can be implemented in different ways or is used in rare cases.
+   - Extract Interface: helps if it’s necessary to have a list of the operations and behaviors that the client can use.
+
+
+Extract Class
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/38b14c4d-cf0f-476e-8382-1a38b749713b" />
+<img width="500" height="267" alt="image" src="https://github.com/user-attachments/assets/630f8094-f67d-4930-b19c-c7c8a841cb5e" />
+
+
+Benfit: Single Responsibilty
+
+Drawbacks: If you “overdo it” with this refactoring technique, you will have to resort to Inline Class.
 
 3) Primitive Obsession
 
