@@ -84,7 +84,6 @@ Extract Class
 
 
 Benfit: Single Responsibilty
-
 Drawbacks: If you “overdo it” with this refactoring technique, you will have to resort to Inline Class.
 
 3) Primitive Obsession
@@ -92,6 +91,10 @@ Drawbacks: If you “overdo it” with this refactoring technique, you will have
 ** Signs : 
    - Use of primitives instead of small objects or small classes.
    <img width="842" height="209" alt="image" src="https://github.com/user-attachments/assets/1889e3c3-9f4c-444b-a274-7f89afeb1a72" />
+
+   - Use of primitives instead of small objects for simple tasks (such as currency, ranges, special strings for phone numbers, etc.)
+   - Use of constants for coding information (such as a constant USER_ADMIN_ROLE = 1 for referring to users with administrator rights.)
+   - Use of string constants as field names for use in data arrays.
 
 4) Long Parameter List
 
@@ -159,14 +162,4 @@ I) Switch Statements II) Couplers
 
 ** Solutions :
   - Instead of that "client.Order.Customer.Address.ZipCode" => "client.Order.GetCustomerZipCode()"
-
-3) Middle Man
-
-** Signs :
-   - If a class performs only one action, delegating work to another class, why does it exist at all?
-   <img width="584" height="407" alt="image" src="https://github.com/user-attachments/assets/5c957202-6b6d-4d28-8592-2c727a89cd51" />
-
-
-
-
 
