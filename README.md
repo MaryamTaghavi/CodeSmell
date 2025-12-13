@@ -82,6 +82,7 @@ Ignoring Code Smells can lead to:
 
 
 Benfit: Single Responsibilty
+
 Drawbacks: If you “overdo it” with this refactoring technique, you will have to resort to Inline Class.
 
 3) Primitive Obsession
