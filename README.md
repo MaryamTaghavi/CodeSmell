@@ -5,7 +5,7 @@ CodeSmells create complexicity , duplicated code , unreadable code.
 Some examples : 
 * Duplicate Code => Seeing the exact code over and over again.
 * Long Methods => We can broken logic into smaller methods, and one method must have single responsibility.
-* Complex Conditional Statements => 
+* Complex Conditional Statements => We can use interface for polymorphism.
 
 ## Bloaters
    - Bloaters are code, methods and classes that have increased to such gargantuan proportions that they’re hard to work with.
@@ -65,7 +65,7 @@ Some examples :
 ## Object-Orientation Abusers
    - All these smells are incomplete or incorrect application of object-oriented programming principles.
 
-   I) Switch Statements II) 
+   I) Switch Statements II) Refused Bequest
 
 1) Switch Statements
 
