@@ -1,3 +1,26 @@
+# Clean Code
+In simple terms, Clean Code refers to code that is easy to read and understand—not only for the original developer, but also for teammates and future developers who will work on the same project. When code is written cleanly, the following benefits are achieved:
+
+**Fewer defects:**
+
+Clean and readable code allows issues to be identified more quickly. When code is complex and poorly structured, even the original author may struggle to locate bugs.
+
+**Faster and safer development:**
+
+Well-organized and structured code makes future changes and enhancements significantly easier. Without clean code, even minor modifications can negatively impact the entire system.
+
+**Reduced time for comprehension:**
+
+Clean code enables developers who are new to a project to understand its behavior and structure in a short amount of time. This results in faster onboarding and improved team productivity.
+
+**Easier maintenance:**
+
+Over time, maintaining and extending clean code becomes far simpler. Developers can continue the project with greater confidence, leading to a more stable and sustainable codebase.
+
+**Professional satisfaction:**
+
+Writing clean and well-crafted code provides a sense of professional fulfillment. Such code is easier to reuse, modify, and extend, even long after it was originally written.
+
 # CodeSmell
 
 ** What are CodeSmells ?
